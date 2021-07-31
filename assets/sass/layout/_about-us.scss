@@ -1,0 +1,27 @@
+#us-title{
+    background-color: $jelly_bean;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23.5rem;
+ 
+}
+.us {
+      /* padding-top: 0.625rem eso es muy poquito;*/
+   padding-bottom: 7rem;
+    text-align: center;
+    img {
+        width: 27.76vw;
+    }
+    p {
+        text-align: left;
+        margin: auto;
+        width: 50vw;
+    }
+}
+#Javiera-Kunstmann {
+    padding-top: 7.7rem;
+}
+#Roberto-Pacheco {
+    padding-top: 4.75rem;
+}

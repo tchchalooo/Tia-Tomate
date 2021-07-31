@@ -1,0 +1,43 @@
+.btn {
+    color: $granite_gray;
+    background-color: $white;
+    border-color: $granite_gray;
+    font-family: $raleway;
+    font-weight: $bold;
+    &__btn-xxl {
+        font-size: $xx-large;
+        padding: 1.313rem 8.625rem;
+    }
+    &__btn-lg {
+        font-size: 36px;
+        padding: 1.375rem 8.625rem;
+        border-radius: 78px;
+    }
+    &__btn-md {
+        font-size: 36px;
+        padding: 1.375rem 2.688rem;
+    }
+    &__btn-sm {
+        font-size: $medium;
+        padding: 1rem 1.875rem;
+    }
+}
+.btn:hover {
+    color: $white;
+    background-color: $quick_silver;
+    border-color: $quick_silver;
+}
+.btn-check:focus + .btn, .btn:focus {
+    color: $white;
+    background-color: $granite_gray;
+    border-color: $granite_gray;
+    box-shadow: 0 0 0 0.25rem $gray;
+}
+.btn-check:checked + .btn, .btn-check:active + .btn, .btn:active, .btn.active, .show > .btn.dropdown-toggle {
+    color: $white;
+    background-color: $taupe_gray;
+    border-color: $taupe_gray;
+}
+  .btn-check:checked + .btn:focus, .btn-check:active + .btn:focus, .btn:active:focus, .btn.active:focus, .show > .btn.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem $gray;
+}

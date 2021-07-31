@@ -1,0 +1,10 @@
+.main-title {
+    background-color: $jelly_bean;
+    height: 100vh; /*60.25rem*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+        font-weight: $bold;
+    }
+}

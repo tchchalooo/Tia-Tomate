@@ -1,0 +1,22 @@
+// main.scss #Manifest file
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+// Abstract
+@import 'abstract/variables';
+// Base
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/body';
+// Components
+@import 'components/buttons';
+// Layout
+@import 'layout/header';
+@import 'layout/main-title';
+@import 'layout/article-1';
+@import 'layout/article-2';
+@import 'layout/about-us';
+@import'layout/click-to-action';
+@import 'layout/footer';
+// Pages
+// Themes
+// Vendors
